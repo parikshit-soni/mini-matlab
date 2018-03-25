@@ -1,0 +1,75 @@
+The Quad Array: 
+1:   if ( a<b ) goto 4
+2:   goto 7
+3:   goto 10
+4:   c= a
+5:   t1= c
+6:   goto 10
+7:   c= b
+8:   t2= c
+9:   goto 10
+10:   t0= c
+11:   return c
+12:   if ( a>b ) goto 15
+13:   goto 18
+14:   goto 21
+15:   c= a
+16:   t4= c
+17:   goto 21
+18:   c= b
+19:   t5= c
+20:   goto 21
+21:   t3= c
+22:   return c
+23:   t7= 50
+24:   t8= "max of a and b = "
+25:   ab= t8
+26:   t9= "min of a and b = "
+27:   ab2= t9
+28:   t10= " "
+29:   cd= t10
+30:   t11= "Enter the element a: "
+31:   de= t11
+32:   t12= "\n"
+33:   fg= t12
+34:   t13= "Enter the element b: "
+35:   gh= t13
+36:   param de
+37:   call prints,1
+38:   readi= callreadi,0
+39:   a= readi
+40:   t14= a
+41:   param gh
+42:   call prints,1
+43:   readi= callreadi,0
+44:   b= readi
+45:   t15= b
+46:   t16= b
+47:   t17= a
+48:   param t16
+49:   param t17
+50:   t18= callmax,2
+51:   suma= t18
+52:   t19= suma
+53:   t20= b
+54:   t21= a
+55:   param t20
+56:   param t21
+57:   t22= callmin,2
+58:   sumb= t22
+59:   t23= sumb
+60:   param ab
+61:   call prints,1
+62:   param suma
+63:   call printi,1
+64:   param fg
+65:   call prints,1
+66:   param ab2
+67:   call prints,1
+68:   param sumb
+69:   call printi,1
+70:   param fg
+71:   call prints,1
+72:   t24= 0
+73:   t6= t24
+74:   return t24

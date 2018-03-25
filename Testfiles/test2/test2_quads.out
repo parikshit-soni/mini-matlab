@@ -1,0 +1,55 @@
+The Quad Array: 
+1:   t1= a+b
+2:   c= t1
+3:   t2= c
+4:   t0= c
+5:   return c
+6:   t4= "Enter number of elements\n"
+7:   ab= t4
+8:   t5= "Enter the elements: "
+9:   de= t5
+10:   t6= "The sum of array is: "
+11:   ef= t6
+12:   t7= "\n"
+13:   fg= t7
+14:   param ab
+15:   call prints,1
+16:   readi= callreadi,0
+17:   n= readi
+18:   t8= n
+19:   t9= 0
+20:   sum= t9
+21:   t10= sum
+22:   t11= 0
+23:   i= t11
+24:   t12= i
+25:   if ( i<n ) goto 33
+26:   goto 46
+27:   goto 46
+28:   t13= i
+29:   t14= t13
+30:   t13= t13+1
+31:   i= t13
+32:   goto 25
+33:   param de
+34:   call prints,1
+35:   readi= callreadi,0
+36:   e= readi
+37:   t15= e
+38:   t16= e
+39:   t17= sum
+40:   param t16
+41:   param t17
+42:   t18= calladd,2
+43:   sum= t18
+44:   t19= sum
+45:   goto 28
+46:   param ef
+47:   call prints,1
+48:   param sum
+49:   call printi,1
+50:   param fg
+51:   call prints,1
+52:   t20= 0
+53:   t3= t20
+54:   return t20

@@ -1,0 +1,8 @@
+
+the assembly generated is good 
+
+
+readi is not working in normal form 
+but i have written a different readi 
+without the parameter passing of int *ep 
+and its working
